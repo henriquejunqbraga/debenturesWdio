@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659617462937' stop='1659617472671'>
+    <name>Buscar Debêntures: Realizar a busca de uma debênture por codigo B3</name>
+    <title>Buscar Debêntures: Realizar a busca de uma debênture por codigo B3</title>
+    <test-cases>
+        <test-case start='1659617462937' status='passed' stop='1659617462938'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659617462938' status='passed' stop='1659617472593'>
+            <name>Dado que estou na homepage da anbima</name>
+            <title>Dado que estou na homepage da anbima</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659617462939' status='passed' stop='1659617472592'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='69a2d06c-0d45-4883-8c28-c9e9a7fe72aa-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1659617472593' status='broken' stop='1659617472670'>
+            <name>Quando realizo uma busca pela debênture "AALM11"</name>
+            <title>Quando realizo uma busca pela debênture "AALM11"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659617472594' status='passed' stop='1659617472603'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='50e40517-6453-441d-bbb3-6898466f570c-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='00dd9129-4faf-42ae-be88-666580d6e9f4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659617472606' status='broken' stop='1659617472670'>
+                    <name>POST /session/:sessionId/element/7db24fa2-b67b-466c-b556-6506e4eeef86/value</name>
+                    <title>POST /session/:sessionId/element/7db24fa2-b67b-466c-b556-6506e4eeef86/value</title>
+                    <attachments>
+                        <attachment title='Request' source='81756589-a138-44a5-a01d-441835e2e5b4-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: element not interactable</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=104.0.5112.79)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659617472670' status='pending' stop='1659617472670'>
+            <name>Então visualizo a debênture "AALM11" no resultado da busca</name>
+            <title>Então visualizo a debênture "AALM11" no resultado da busca</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659617472670' status='passed' stop='1659617472670'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

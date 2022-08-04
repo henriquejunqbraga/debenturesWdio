@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659633573067' stop='1659633582513'>
+    <name>Buscar Debêntures: Realizar a busca de uma debênture por codigo B3</name>
+    <title>Buscar Debêntures: Realizar a busca de uma debênture por codigo B3</title>
+    <test-cases>
+        <test-case start='1659633573068' status='passed' stop='1659633573068'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659633573068' status='passed' stop='1659633580429'>
+            <name>Dado que estou na homepage da anbima</name>
+            <title>Dado que estou na homepage da anbima</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659633573069' status='passed' stop='1659633580428'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5e9ca202-2dbc-4267-877c-49836b790826-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1659633580429' status='passed' stop='1659633580453'>
+            <name>Quando realizo uma busca pela debênture "AALM11"</name>
+            <title>Quando realizo uma busca pela debênture "AALM11"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659633580430' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c5e352e-1a5e-4d92-b174-a63abf20584d-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1659633580451' status='undefined'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='f6c22f38-d7b9-4df5-840e-f4b33ac4cfe4-attachment.json' type='application/json' size='73'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1659633580453' status='passed' stop='1659633582512'>
+            <name>Então visualizo a debênture "AALM11" no resultado da busca</name>
+            <title>Então visualizo a debênture "AALM11" no resultado da busca</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659633580454' status='passed' stop='1659633580462'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e3d1a0ff-d92e-4d44-9f58-20136bfa0466-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='8559fbea-3fd5-47a2-a7c1-845e90afc70b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633580465' status='passed' stop='1659633580468'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='3e394bb2-ce5d-4063-a8bd-dea16ca9d490-attachment.json' type='application/json' size='5753'/>
+                        <attachment title='Response' source='a76b6a6a-e077-4cc8-86ce-e03b885c8212-attachment.json' type='application/json' size='275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633580472' status='passed' stop='1659633580477'>
+                    <name>POST /session/:sessionId/element/9d746040-a99e-420e-9dcf-54b99289ea8b/value</name>
+                    <title>POST /session/:sessionId/element/9d746040-a99e-420e-9dcf-54b99289ea8b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e527c758-c108-419b-bd4d-a2f03100df73-attachment.json' type='application/json' size='22'/>
+                        <attachment title='Response' source='2baa9f52-5fb9-47a6-b6a0-f13268bf2d6e-attachment.json' type='application/json' size='1527'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633580479' status='passed' stop='1659633580562'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3fd47426-d6f1-49a0-a155-91b54a90e8b9-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633580980' status='passed' stop='1659633580990'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c076bd3b-1b34-470e-81f7-c713d5e6ef65-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='b354397a-fa4e-48bf-8539-4c90834bda42-attachment.json' type='application/json' size='1527'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633581480' status='passed' stop='1659633581488'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a967125-ff7e-4a06-8413-f463920b10f6-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='54e9ade7-7573-46a5-916e-4370efa6810e-attachment.json' type='application/json' size='1527'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633581981' status='passed' stop='1659633581989'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='82c57452-99c3-4a67-bc44-96c3e9e6dcf8-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='6ae6e2f9-6168-47c2-9514-fb79cd203268-attachment.json' type='application/json' size='1527'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633582482' status='passed' stop='1659633582497'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58bf3a1f-80d7-4ec3-afc2-23a118c3a221-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='4c6e5931-bdea-471a-a9db-942daa4dd485-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659633582499' status='passed' stop='1659633582510'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='605cbed1-70b3-4013-9a9b-c94fd81aabf3-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='85fe2b73-d674-4eae-b0e6-dbb294c86d7c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='08e59f3a-3d8c-45af-abf9-0848f56bd8e3-attachment.json' type='application/json' size='1527'/>
+            </attachments>
+        </test-case>
+        <test-case start='1659633582512' status='passed' stop='1659633582513'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

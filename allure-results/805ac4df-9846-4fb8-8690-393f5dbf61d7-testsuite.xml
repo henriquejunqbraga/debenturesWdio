@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659616804674' stop='1659616804675'>
+    <name>Buscar Debêntures: Realizar a busca de uma debênture inexistente</name>
+    <title>Buscar Debêntures: Realizar a busca de uma debênture inexistente</title>
+    <test-cases>
+        <test-case start='1659616804674' status='passed' stop='1659616804674'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659616804674' status='broken' stop='1659616804675'>
+            <name>Dado que estou na homepage da anbima</name>
+            <title>Dado que estou na homepage da anbima</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: debenture.open is not a function</message>
+                <stack-trace>TypeError: debenture.open is not a function
+                    at World.&lt;anonymous> (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/step-definitions/steps.js:10:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at wrapPromiseWithTimeout (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/time.ts:56:10)
+                    at Object.run (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/user_code_runner.ts:86:16)
+                    at Object.run (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:312:20)
+                    at /Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:214:36</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659616804675' status='broken' stop='1659616804675'>
+            <name>Quando realizo uma busca por código B3 "ALM1"</name>
+            <title>Quando realizo uma busca por código B3 "ALM1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "realizo uma busca por código B3 "ALM1"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "realizo uma busca por código B3 "ALM1"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/debenture.feature):1:1
+                	at Scenario(Realizar a busca de uma debênture inexistente):20:3
+                	at Step(realizo uma busca por código B3 "ALM1"):21:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659616804675' status='broken' stop='1659616804675'>
+            <name>Então visualizo uma mensagem e uma opção para seguir o fluxo</name>
+            <title>Então visualizo uma mensagem e uma opção para seguir o fluxo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "visualizo uma mensagem e uma opção para seguir o fluxo" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "visualizo uma mensagem e uma opção para seguir o fluxo" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/debenture.feature):1:1
+                	at Scenario(Realizar a busca de uma debênture inexistente):20:3
+                	at Step(visualizo uma mensagem e uma opção para seguir o fluxo):22:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659616804675' status='passed' stop='1659616804675'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

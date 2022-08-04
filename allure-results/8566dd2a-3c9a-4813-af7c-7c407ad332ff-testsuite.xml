@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659615953681' stop='1659615953683'>
+    <name>Buscar Debêntures: Acessar detalhes da debênture através de uma busca</name>
+    <title>Buscar Debêntures: Acessar detalhes da debênture através de uma busca</title>
+    <test-cases>
+        <test-case start='1659615953681' status='passed' stop='1659615953681'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659615953682' status='broken' stop='1659615953682'>
+            <name>Dado que estou na homepage da anbima</name>
+            <title>Dado que estou na homepage da anbima</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/user_code_runner.ts:50:16)
+                    at Object.run (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at TestCaseRunner.invokeStep (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:312:20)
+                    at /Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:214:36
+                    at TestCaseRunner.aroundTestStep (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:162:28)
+                    at TestCaseRunner.run (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:192:9)
+                    at Runtime.runTestCase (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/index.ts:91:20)
+                    at Runtime.start (/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/node_modules/@cucumber/cucumber/src/runtime/index.ts:121:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659615953682' status='broken' stop='1659615953682'>
+            <name>Quando realizo uma busca pelo código B3 "AALM11"</name>
+            <title>Quando realizo uma busca pelo código B3 "AALM11"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "realizo uma busca pelo código B3 "AALM11"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "realizo uma busca pelo código B3 "AALM11"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/debenture.feature):1:1
+                	at Scenario(Acessar detalhes da debênture através de uma busca):15:3
+                	at Step(realizo uma busca pelo código B3 "AALM11"):16:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659615953682' status='broken' stop='1659615953683'>
+            <name>E acesso ver detalhes</name>
+            <title>E acesso ver detalhes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "acesso ver detalhes" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "acesso ver detalhes" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/debenture.feature):1:1
+                	at Scenario(Acessar detalhes da debênture através de uma busca):15:3
+                	at Step(acesso ver detalhes):17:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659615953683' status='broken' stop='1659615953683'>
+            <name>Então visualizo características da debênture</name>
+            <title>Então visualizo características da debênture</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "visualizo características da debênture" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "visualizo características da debênture" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/h.junqueira.braga/Documents/bootcamp /debentures webdriver.io/features/debenture.feature):1:1
+                	at Scenario(Acessar detalhes da debênture através de uma busca):15:3
+                	at Step(visualizo características da debênture):18:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659615953683' status='passed' stop='1659615953683'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
